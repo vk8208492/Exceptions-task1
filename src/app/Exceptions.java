@@ -1,15 +1,15 @@
 package app;
 
-import app.ExceptionHadler.ExceptionHadler;
-import app.ExceptionProvider.ExceptionProvider;
+import app.ExceptionHadler.ExceptionsHadler;
+import app.ExceptionProvider.ExceptionsProvider;
 
 public class Exceptions {
 
     public static void main(String[] args) {
 
-        ExceptionProvider provider = new ExceptionProvider();
+        ExceptionsProvider provider = new ExceptionsProvider();
         String height = provider.getHeight();
-        ExceptionHadler hadler = new ExceptionHadler();
+        ExceptionsHadler hadler = new ExceptionsHadler();
         getOUtPut(hadler.HandleException(height));
         getOUtPut("Some code.");
     }

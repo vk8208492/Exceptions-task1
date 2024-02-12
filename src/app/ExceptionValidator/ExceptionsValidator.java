@@ -1,10 +1,9 @@
 package app.ExceptionValidator;
 
 import app.HeightException.HeightException;
-import javax.swing.tree.FixedHeightLayoutCache;
 
 
-public class ExceptionValidator {
+public class ExceptionsValidator {
     private static final int MAX_HEIGHT = 355;
     public static final String INPUT_REGEX = "^\\d + $";
 
